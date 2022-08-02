@@ -61,7 +61,7 @@ if err := in.Err(); err != nil {
 	fmt.Println("> ERR:", err)
 }
 
-USe maps as sets
+//USe maps as sets
 rx := regexp.MustCompile(`[^a-z]+`)
 
 args := os.Args[1:]
